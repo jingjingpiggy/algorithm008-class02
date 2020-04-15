@@ -11,11 +11,18 @@
 # ....
 
 def Fibonacci(n):
-    if n <=2:
-        return n
-    for i in range(1, n+1) {
-        n[i] = n[i-1] + n[i-2]
-    }
+    if n == 0: return 0
+    if 1 <= n <= 2: return 1
+
+    f1 = 0
+    f2 = 1
+
+    for i in range(2, n+1):
+        f3 = f1 + f2
+        f1 = f2
+        f2 = f3
+    return f3
+
 
 def climbStairs(n):
     if n <= 2:
