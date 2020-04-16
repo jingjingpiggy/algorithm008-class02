@@ -25,7 +25,7 @@ def maxArea1(height):
         else:
             minHeight = height[j]
             j -= 1
-        area = (j-i+1) * minHeight
+        area = (j-i+1) * minHeight # +1 是因为上面对i或者j进行了操作。
         m = max(m, area)
     return m
 
