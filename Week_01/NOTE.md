@@ -33,3 +33,7 @@ Day2：plusOne--加法器
 Day3: container_with_most_water: 保证i和j不会重复也不会反复的值。时间复杂度 O（n^2）
                                  左右边界i, j同时向中间收敛(左右夹逼的办法)： 双指针双侧向内移动，谁的高度低谁往里挪。时间复杂度O（n）
       climbStairs: 爬台阶：找最近重复子问题，找重复性
+
+Day4: 2sums and 3sums 待续：卡住了
+
+Day5: % 求余，/ 结果包括float和int类型，//结果为int
