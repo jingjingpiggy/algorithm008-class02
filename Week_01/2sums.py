@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
 # Author: Li jinjing <lijinjing@gmail.com>
+# 暴力解法
 def twoSum(nums, target):
     if len(nums) < 2:
         return None
@@ -9,4 +10,15 @@ def twoSum(nums, target):
             nums[i] = target - nums[j]
             return [nums[i], nums[j]]
 
-print(twoSum([2,7,11,15], 9))
+
+def twoSum1(nums, target):
+    if len(nums) < 2:
+        return None
+
+    d = {}
+    for i in range(len(nums)):
+        data = nums[i]
+        if target - data in d:
+            return [d[target-data], i]
+        d[data] = i
+print(twoSum1([2,7,11,15], 9))
