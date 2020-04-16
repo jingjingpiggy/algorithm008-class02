@@ -15,10 +15,10 @@ def twoSum1(nums, target):
     if len(nums) < 2:
         return None
 
-    d = {}
+    d = {i: x for x, i in enumerate(nums)}
     for i in range(len(nums)):
         data = nums[i]
         if target - data in d:
             return [d[target-data], i]
-        d[data] = i
+
 print(twoSum1([2,7,11,15], 9))
