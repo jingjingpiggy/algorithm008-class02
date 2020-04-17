@@ -37,3 +37,4 @@ Day3: container_with_most_water: 保证i和j不会重复也不会反复的值。
 Day4: 2sums and 3sums 待续：卡住了
 
 Day5: % 求余，/ 结果包括float和int类型，//结果为int
+Day6: lc977, 用到了两种方法：从头到尾遍历+原list，双指针+新list: i,j 从左右两侧计算，取大的值添加到新数组的尾部
