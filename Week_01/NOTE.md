@@ -38,3 +38,4 @@ Day4: 2sums and 3sums 待续：卡住了
 
 Day5: % 求余，/ 结果包括float和int类型，//结果为int
 Day6: lc977, 用到了两种方法：从头到尾遍历+原list，双指针+新list: i,j 从左右两侧计算，取大的值添加到新数组的尾部
+Day7: lc917, 双指针
