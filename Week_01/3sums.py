@@ -15,8 +15,8 @@ def threeSum(nums):
                         res.append(l)
     return res
 
-# Hash: 时间复杂度O(n^2) a+b = -c
-def threeSum(self, nums: List[int]) -> List[List[int]]:
+# Hash: 时间复杂度O(n^2) a+b = -c, 有待debug
+def threeSum_Hash(nums):
     if len(nums) < 3:
         return []
     '''先对数组排序, 遍历数组遇到与前一个元素相同的情况可直接跳过'''
@@ -42,4 +42,28 @@ def threeSum(self, nums: List[int]) -> List[List[int]]:
                     res_hash[key] = True
     return res
 
-print(threeSum1([-1, 0, 1, 2, -1, -4]))
+def threeSum_doublePointer(nums):
+    nums.sort()
+    res = []
+    for k in range(len(nums)-2):
+        if k > 0 and nums[k] == nums[k-1]:
+            continue
+        i, j = k + 1, len(nums) - 1
+        while i < j:
+            s = nums[i] + nums[j] + nums[k]
+            if s < 0:
+                i += 1
+            elif s > 0:
+                j -= 1
+            else:
+                res.append([nums[k], nums[i], nums[j]])
+                print(res)
+                while i < j and nums[i] == nums[i+1]:
+                    i += 1
+                while i < j and nums[j] == nums[j-1]:
+                    j -= 1
+                i += 1
+                j -= 1
+    return res
+
+print(threeSum_doublePointer([-1, 0, 1, 2, -1, -4]))
