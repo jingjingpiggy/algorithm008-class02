@@ -90,3 +90,19 @@ https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
 https://leetcode-cn.com/problems/maximum-depth-of-n-ary-tree/
 https://leetcode-cn.com/problems/balanced-binary-tree/
 二叉树，多叉树的遍历方法: 递归、BFS 和DFS
+
+简单
+写一个关于 HashMap 的小总结。
+说明：对于不熟悉 Java 语言的同学，此项作业可选做。
+https://leetcode-cn.com/problems/valid-anagram/description/
+https://leetcode-cn.com/problems/two-sum/description/
+https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/description/
+HeapSort ：自学 https://www.geeksforgeeks.org/heap-sort/
+
+中等
+https://leetcode-cn.com/problems/group-anagrams/
+https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/
+https://leetcode-cn.com/problems/chou-shu-lcof/
+https://leetcode-cn.com/problems/top-k-frequent-elements/
