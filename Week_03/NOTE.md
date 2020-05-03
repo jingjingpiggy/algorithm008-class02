@@ -37,6 +37,36 @@ def recursion(level, param1, param2, ...):
     # reverse the current level status if needed 清理当前层 一般处理全局变量
 
 
+第八课 分治、回溯
+本质：一种递归，本质就是找它的重复性，分解问题，组合问题
+divide -> conquer -> merge
+
+1) 分治
+def divide_conquer(problem, param1, param2,...):
+    # recursion terminator
+    if problem is None:
+        print result
+        return
+
+    # prepare data
+    data = prepare_data(problem)
+    subproblems = split_problem(problem, data)
+
+    # conquer subproblems
+    subresult1 = self.divide_conquer(subproblems[0], p1, ...)
+    subresult2 = self.divide_conquer(subproblems[1], p1, ...)
+    subresult3 = self.divide_conquer(subproblems[2], p1, ...)
+
+    # process and generate the final result
+    result = process_result(subresult1, subresult2, subresult3, ...)
+
+    # revert the current level states
+
+
+2) 回溯: 不断的在每一层一个一个的去尝试，看这个方法行不行，最典型的应用：八皇后 数独。
+
+
+
 Day16:
 https://leetcode-cn.com/problems/add-strings/
 https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/
