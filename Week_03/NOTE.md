@@ -109,3 +109,6 @@ https://leetcode-cn.com/problems/majority-element/
 
 若 count == 0，代表当前 major 空缺，直接将当前候选人赋值给 major，并令 count++
 若 count != 0，代表当前 major 的票数未被完全抵消，因此令 count--，即使用当前候选人的票数抵消 major 的票数
+
+Day26:
+https://leetcode-cn.com/problems/chou-shu-lcof
