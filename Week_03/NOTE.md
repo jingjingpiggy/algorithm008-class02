@@ -40,6 +40,7 @@ def recursion(level, param1, param2, ...):
 第八课 分治、回溯
 本质：一种递归，本质就是找它的重复性，分解问题，组合问题
 divide -> conquer -> merge
+我们的程序语言就是是比较傻瓜的语言: if else, for loop, recursion
 
 1) 分治
 def divide_conquer(problem, param1, param2,...):
