@@ -105,3 +105,9 @@ https://leetcode-cn.com/problems/sqrtx/
 
 Day 31:
 https://leetcode-cn.com/problems/assign-cookies/description/
+
+Day 32:
+https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+
+Day 33:
+https://leetcode-cn.com/problems/jump-game-ii/
