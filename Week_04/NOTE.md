@@ -117,3 +117,9 @@ https://leetcode-cn.com/problems/linked-list-cycle-ii/
 
 Day 35:
 https://leetcode-cn.com/problems/search-a-2d-matrix/
+
+Day 37:
+https://leetcode-cn.com/problems/lemonade-change/description
+
+Day 38:
+https://leetcode-cn.com/problems/word-ladder/description
