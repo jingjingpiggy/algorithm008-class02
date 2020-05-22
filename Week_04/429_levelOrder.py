@@ -28,7 +28,7 @@ Tree6.children = None
 
 # [] 要比deque快很多。。。
 from collections import deque
-def levelOrder(root):
+def levelOrder_BFS(root):
     if not root: return []
 
     #queue = deque([root])
@@ -51,4 +51,21 @@ def levelOrder(root):
 
     return result
 
-print(levelOrder(Tree1))
+
+def levelOrder_DFS(root):
+    res = []
+    level = 0
+    def ntree(root, level):
+        if not root: return
+        if len(res) == level:
+            res.append([])
+        res[level].append(root.val)
+       #import ipdb;ipdb.set_trace()
+        if root.children:
+            for child in root.children:
+                ntree(child, level+1)
+
+    ntree(root, level)
+    return res
+
+print(levelOrder_DFS(Tree1))
