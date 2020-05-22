@@ -60,11 +60,11 @@ def levelOrder_DFS(root):
         if len(res) == level:
             res.append([])
         res[level].append(root.val)
-       #import ipdb;ipdb.set_trace()
         if root.children:
             for child in root.children:
                 ntree(child, level+1)
 
+    import ipdb;ipdb.set_trace()
     ntree(root, level)
     return res
 
