@@ -123,3 +123,12 @@ https://leetcode-cn.com/problems/lemonade-change/description
 
 Day 38:
 https://leetcode-cn.com/problems/word-ladder/description
+
+Day 41:
+https://leetcode-cn.com/problems/majority-element/description/
+
+Day 42:
+https://leetcode-cn.com/problems/permutations-ii/
+
+Addition:
+https://leetcode-cn.com/problems/4sum/
