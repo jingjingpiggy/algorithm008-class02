@@ -42,3 +42,17 @@ Count the paths: 分治的办法
 2. DP: a. 重复性(分治) problem(i, j) = min(sub(i+1, j), sub(i+1, j+1)) + a[i, j]
        b. 定义状态数组: f[i, j]
        c. DP方程: f[i, j] = min(f[i+1, j], f[i+1, j+1]) + a[i, j]
+
+实战4：
+
+实战5：打家劫舍
+
+
+Day43: 打家劫舍
+https://leetcode-cn.com/problems/house-robber/
+
+Day 44: 零钱兑换
+https://leetcode-cn.com/problems/coin-change/
+
+Day 45: 三角形最小路径和
+https://leetcode-cn.com/problems/triangle/description/
