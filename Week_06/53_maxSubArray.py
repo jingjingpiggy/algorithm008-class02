@@ -9,7 +9,6 @@
 def maxSubArray(nums):
     #dp问题，公式：dp[i] = max(nums[i], nums[i] + dp[i-1])
     #最大子序和 = 当前元素自身最大，或者 包含之前后 最大
-    import ipdb;ipdb.set_trace()
     for i in range(1, len(nums)):
         nums[i] = max(nums[i], nums[i] + nums[i-1])
 
