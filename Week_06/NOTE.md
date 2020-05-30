@@ -67,3 +67,10 @@ https://leetcode-cn.com/problems/maximal-square/
 zoom:
 leetcode91： https://leetcode-cn.com/problems/decode-ways/
 面试题17. 16：https://leetcode-cn.com/problems/the-masseuse-lcci/
+
+
+leetcode 博主:
+https://leetcode-cn.com/u/liweiwei1419/ 
+https://leetcode-cn.com/u/powcai/ 
+https://leetcode-cn.com/u/sweetiee/ 
+https://leetcode-cn.com/u/labuladong/
