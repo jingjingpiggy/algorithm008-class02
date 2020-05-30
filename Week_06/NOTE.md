@@ -56,3 +56,14 @@ https://leetcode-cn.com/problems/coin-change/
 
 Day 45: 三角形最小路径和
 https://leetcode-cn.com/problems/triangle/description/
+
+Day 47:
+https://leetcode-cn.com/problems/burst-balloons/
+https://leetcode-cn.com/problems/number-of-segments-in-a-string/
+
+Day 48:
+https://leetcode-cn.com/problems/maximal-square/
+
+zoom:
+leetcode91： https://leetcode-cn.com/problems/decode-ways/
+面试题17. 16：https://leetcode-cn.com/problems/the-masseuse-lcci/
