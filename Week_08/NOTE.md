@@ -47,3 +47,6 @@ https://leetcode-cn.com/problems/power-of-two/
 1. 若n=2^x 且 x 为自然数(即n为2的幂)，则一定满足一下条件：
    1）恒有 n&(n-1) == 0, 这是因为： n二进制最高位为1， 其余所有位为0， n-1二进制最高位为0，其余所有位为1
    2）一定满足 n > 0
+
+Day 62
+https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/
