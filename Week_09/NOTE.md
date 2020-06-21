@@ -19,3 +19,6 @@ https://leetcode-cn.com/problems/isomorphic-stings/
 
 Day 69:
 https://leetcode-cn.com/problems/wildcard-matching/
+
+Day 70:
+https://leetcode-cn.com/problems/distinct-subsequences/
