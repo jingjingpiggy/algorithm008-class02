@@ -11,7 +11,17 @@ class Solution:
         return i == n
 
 
+# recursion
+def isSubsequence2(s,t):
+    if not s: return True
+    if s[0] in t:
+        index = t.index(s[0])
+        return isSubsequence2(s[1:], t[index+1:])
+    return False
+print(isSubsequence2("aabc", "ahbgdc"))
 
+
+# DP
 def isSubsequence(s, t):
     import ipdb;ipdb.set_trace()
     n, m = len(s), len(t)
@@ -32,4 +42,4 @@ def isSubsequence(s, t):
 
     return True 
 
-print(isSubsequence("abc", "ahbgdc"))
+#print(isSubsequence("abc", "ahbgdc"))
