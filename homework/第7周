@@ -1,0 +1,79 @@
+第13课字典树和并查集
+二叉树的层次遍历: https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+实现 Trie: https://leetcode-cn.com/problems/implement-trie-prefix-tree/solution/
+Tire 树代码模板: https://shimo.im/docs/DP53Y6rOwN8MTCQH
+
+实战题目
+    https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description
+    https://leetcode-cn.com/problems/word-search-ii/
+    分析单词搜索 2 用 Tire 树方式实现的时间复杂度，请同学们提交在学习总结中。
+
+参考链接
+    岛屿数量: https://leetcode-cn.com/problems/number-of-islands/
+    并查集代码模板: https://shimo.im/docs/VtcxL0kyp04OBHak
+
+实战题目
+    https://leetcode-cn.com/problems/friend-circles
+    https://leetcode-cn.com/problems/number-of-islands/
+    https://leetcode-cn.com/problems/surrounded-regions/
+
+
+第14课高级搜索
+DFS 代码模板: https://shimo.im/docs/ddgwCccJQKxkrcTq/read
+BFS 代码模板: https://shimo.im/docs/P8TqKHGKt3ytkYYd/read
+AlphaZero Explained: https://nikcheerla.github.io/deeplearningschool/2018/01/01/AlphaZero-Explained/
+棋类复杂度: https://en.wikipedia.org/wiki/Game_complexity
+
+实战题目
+    https://leetcode-cn.com/problems/climbing-stairs/
+    https://leetcode-cn.com/problems/generate-parentheses/
+    https://leetcode-cn.com/problems/n-queens
+    https://leetcode-cn.com/problems/valid-sudoku/description/
+    https://leetcode-cn.com/problems/sudoku-solver/#/description
+
+实战题目
+    https://leetcode-cn.com/problems/word-ladder/
+    https://leetcode-cn.com/problems/minimum-genetic-mutation/
+
+参考链接
+    A* 代码模板: https://shimo.im/docs/8CzMlrcvbWwFXA8r
+    相似度测量方法: https://dataaspirant.com/2015/04/11/five-most-popular-similarity-measures-implementation-in-python/
+    二进制矩阵中的最短路径的 A* 解法: https://leetcode.com/problems/shortest-path-in-binary-matrix/discuss/313347/A*-search-in-Python
+    8 puzzles 解法比较: https://zxi.mytechroad.com/blog/searching/8-puzzles-bidirectional-astar-vs-bidirectional-bfs/
+
+实战题目
+    https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/
+    https://leetcode-cn.com/problems/sliding-puzzle/
+    https://leetcode-cn.com/problems/sudoku-solver/
+
+
+第15课 红黑树和AVL树
+平衡树：https://en.wikipedia.org/wiki/Self-balancing_binary_search_tree
+
+本周作业
+简单
+    https://leetcode-cn.com/problems/climbing-stairs/
+
+中等
+    https://leetcode-cn.com/problems/implement-trie-prefix-tree/#/description
+    https://leetcode-cn.com/problems/friend-circles
+    https://leetcode-cn.com/problems/number-of-islands/
+    https://leetcode-cn.com/problems/surrounded-regions/
+    https://leetcode-cn.com/problems/valid-sudoku/description/
+    https://leetcode-cn.com/problems/generate-parentheses/
+    https://leetcode-cn.com/problems/word-ladder/
+    https://leetcode-cn.com/problems/minimum-genetic-mutation/
+
+困难
+    https://leetcode-cn.com/problems/word-search-ii/
+    https://leetcode-cn.com/problems/n-queens
+    https://leetcode-cn.com/problems/sudoku-solver/#/description
+
+下周预习题目
+    N 皇后
+    LRU 缓存机制
+    有效的字母异位词
+
+
+
+
